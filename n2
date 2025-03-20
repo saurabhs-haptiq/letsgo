@@ -7,7 +7,7 @@ new changes in feature branch
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Navbar</title>
     <style>
-       
+        
         .navbar a {
             float: left;
             display: block;
