@@ -1,0 +1,9 @@
+relationship 579d995d-d0ed-4de6-ad25-e93b7fc9386c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar_Table.Date
+	toColumn: LocalDateTable_a727e1f4-3119-48fe-a225-4f662ff7baa0.Date
+
+relationship c787c106-678c-de0f-6fec-b50f35685d8d
+	fromColumn: SalesData.Date
+	toColumn: Calendar_Table.Date
+

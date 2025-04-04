@@ -1,0 +1,110 @@
+table SalesData
+	lineageTag: 272cde81-e988-418d-9a3d-5aa6d30223fb
+
+	column 'Transaction ID'
+		dataType: string
+		lineageTag: b427f4e6-b580-47ba-95d7-45a789e2cb7f
+		summarizeBy: none
+		sourceColumn: Transaction ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Product
+		dataType: string
+		lineageTag: cf4da41f-7317-4d22-b9a0-bf646cf0a139
+		summarizeBy: none
+		sourceColumn: Product
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f0b1807-c1e8-45a8-888d-04c9c7d1bcee
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Price (INR)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 15066a3f-7b5b-489d-b877-fe43a4e0bf85
+		summarizeBy: sum
+		sourceColumn: Unit Price (INR)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 513f7e7c-f9bb-4849-8767-dd7bad764de8
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Customer Name'
+		dataType: string
+		lineageTag: 3090b84a-fce0-477c-b21f-3c19806e6ea3
+		summarizeBy: none
+		sourceColumn: Customer Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column State
+		dataType: string
+		lineageTag: 2d315578-b7e8-4bff-8e1b-2043a54757fd
+		summarizeBy: none
+		sourceColumn: State
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 710f3828-07fb-40ad-a433-0beb346874a9
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Channel'
+		dataType: string
+		lineageTag: 3627f70a-e3f5-4c01-99e6-941eb92f3bbb
+		summarizeBy: none
+		sourceColumn: Sales Channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Payment Type'
+		dataType: string
+		lineageTag: 8632befe-8243-4eb0-9e65-2a1ea39ae35d
+		summarizeBy: none
+		sourceColumn: Payment Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sales
+		dataType: int64
+		formatString: 0
+		lineageTag: 06898823-d2b3-4568-848f-6dac50af198e
+		summarizeBy: sum
+		sourceColumn: Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SalesData = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Saurabh Salvi\Downloads\DAX - 1 -  Tech_Products_Sales_Data.xlsx"), null, true),
+				    SalesData_Sheet = Source{[Item="SalesData",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(SalesData_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Transaction ID", type text}, {"Product", type text}, {"Quantity", Int64.Type}, {"Unit Price (INR)", Int64.Type}, {"Date", type date}, {"Customer Name", type text}, {"State", type text}, {"Country", type text}, {"Sales Channel", type text}, {"Payment Type", type text}, {"Sales", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
