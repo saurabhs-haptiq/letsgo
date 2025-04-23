@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Haptiq - Capital Structure"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "31787c62-b3e3-4ad0-8afd-bdc7e810c7b7"
+  }
+}

@@ -1,0 +1,3970 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"haptiq_cap_structure\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63fe6d07e0e1b"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "pink_taco_cap_structure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pink_taco cap_structure": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.company_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "company_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "company id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "company_id": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "company": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "company identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "company identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "company identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "co": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "corp": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "corporation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "corps": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "employer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "company credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "business": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "created_at": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "created at mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "created at qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.created_at.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "created_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created at year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "created at yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "adulthood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "ripeness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "mellowness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "development": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "maturity mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "maturity qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.maturity.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "maturity"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "maturity year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "maturity yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.parent_company_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "parent_company_amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "parent company amount": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "parent_company_amount": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "company amount": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "parent co amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "parent corp amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "parent corporation amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "parent corps amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "parent employer amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "parent enterprise amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "co amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "corp amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "corporation amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "corps amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rate": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "frequency": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quotient": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "speed": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tempo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "velocity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.third_party": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "third_party"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "third party": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "third_party": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "party": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "third festivity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "third revelry": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "third merrymaking": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "third celebration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "third bee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "third shindig": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "festivity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "revelry": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "merrymaking": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "celebration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.total": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "total"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "overall": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.tranche": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "tranche"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tranche": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "style": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "form": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "updated_at": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "updated at mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "updated at qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.updated_at.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "updated_at"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "updated at year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "updated at yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "pink_taco_cap_structure.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "haptiq_cap_structure",
+                    "ConceptualProperty": "year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "pink_taco_cap_structure_created_at_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.created_at"
+                      }
+                    },
+                    "ID": "created_at_have_created_at_date_hierarchy1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.created_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_created_at_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_at_date_hierarchy_have_created_at_day1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_created_at_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_at_date_hierarchy_have_created_at_month1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_created_at_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_at_date_hierarchy_have_created_at_quarter1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_created_at_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "created_at_date_hierarchy_have_created_at_year1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_company_id": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.company_id"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_company_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.company_id": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.company_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_created_at": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.created_at"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_created_at",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_maturity": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_maturities",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.month"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.month": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_parent_company_amount": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.parent_company_amount"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_parent_company_amounts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.parent_company_amount": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.parent_company_amount"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_rate": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.rate"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_rates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.rate": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.rate"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_third_party": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.third_party"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_third_parties",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.third_party": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.third_party"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_total": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.total"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_totals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.total": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.total"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_tranche": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.tranche"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_tranches",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.tranche": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.tranche"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_type": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.type"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.type": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_updated_at": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_updated_at",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_v98_Valuations98_valuation": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "v98_Valuations98_valuation"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_98_valuations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "v98_Valuations98_valuation": {
+                    "Target": {
+                      "Entity": "v98_Valuations98_valuation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.year"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.year": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_is_created_on_created_at": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "pink_taco_cap_structures_are_created",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure"
+                      },
+                      "Verbs": [
+                        {
+                          "create": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.created_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.created_at"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "pink_taco_cap_structure.created_at"
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_is_named_id": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "ids_are_names_IDs_of_pink_taco_cap_structures",
+                    "Name": {
+                      "Name": {
+                        "Role": "pink_taco_cap_structure.id"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.id"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure"
+                      }
+                    },
+                    "ID": "pink_taco_cap_structures_have_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.id": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_is_updated_on_updated_at": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "pink_taco_cap_structures_are_updated",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure"
+                      },
+                      "Verbs": [
+                        {
+                          "update": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "pink_taco_cap_structure.updated_at"
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_maturity_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.maturity"
+                      }
+                    },
+                    "ID": "maturities_have_maturity_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.maturity": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_maturity_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "maturity_date_hierarchies_have_maturity_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_maturity_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "maturity_date_hierarchies_have_maturity_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_maturity_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "maturity_date_hierarchies_have_maturity_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_maturity_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "maturity_date_hierarchies_have_maturity_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.maturity.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.maturity.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_updated_at_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.updated_at"
+                      }
+                    },
+                    "ID": "updated_at_have_updated_at_date_hierarchy1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.updated_at": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_updated_at_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "updated_at_date_hierarchy_have_updated_at_day1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_updated_at_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "updated_at_date_hierarchy_have_updated_at_month1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_updated_at_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "updated_at_date_hierarchy_have_updated_at_quarter1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pink_taco_cap_structure_updated_at_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "haptiq_cap_structure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "updated_at_date_hierarchy_have_updated_at_year1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy"
+                    }
+                  },
+                  "pink_taco_cap_structure.updated_at.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "pink_taco_cap_structure.updated_at.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "fc74cb7b-00e7-4513-bb13-5cbddef8d442",
+        "fromColumn": "maturity",
+        "fromTable": "haptiq_cap_structure",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_40b8cb8a-530d-493a-a06f-61f6118e6650"
+      },
+      {
+        "name": "97d16b07-22c2-48f7-a86d-65c1c11ae366",
+        "fromColumn": "created_at",
+        "fromTable": "haptiq_cap_structure",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_bebcb363-35db-402f-9c43-c0fea5b4210b"
+      },
+      {
+        "name": "b9180fce-17ff-4dbe-8260-fe7bb053cb06",
+        "fromColumn": "updated_at",
+        "fromTable": "haptiq_cap_structure",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_c4d1cc98-23c5-4892-ab43-92e1e435a136"
+      },
+      {
+        "name": "3b118fdd-ba29-49ab-b71a-349ad0b6150e",
+        "fromColumn": "date",
+        "fromTable": "haptiq_cap_structure",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_42e65f9d-5de1-419d-9116-e764297eb28c"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "DateTableTemplate_d4ae0300-fa6e-41bd-b1ea-4752e9da0a6e",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "79671f76-ef66-49fa-967e-67c34f418eea",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a0f2fe70-dc78-4413-ab7b-8cabe2ca6cfc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "596b65eb-3a9f-4d9f-8269-afab606a6d10",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "3042b7ea-54bc-49bb-ac4b-031b4b3f04a7",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "de7e5d82-bf3d-4375-b085-ae6f8be2781b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d06989e4-e50f-4d4f-af7a-1492c87cc1be",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2563f112-bb69-47f2-870d-049d19acffb7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "a45fb8e6-0ce0-4c5a-bab4-d96c6c70b2c2",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "5d9fc73a-e6a4-449b-ab66-903473ac02ed",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "b1faca7b-66a8-43b0-8476-73894815ebb3",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "2eed1c9e-2ea1-489a-a560-fe2886f3e38e",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "fa71a7ff-bbe9-46b9-b3a8-9158b6f86f01"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "11d79678-1235-4bb4-8915-1d43fce27d88",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_d4ae0300-fa6e-41bd-b1ea-4752e9da0a6e",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "haptiq_cap_structure",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "20081d5c-e847-486f-8106-cc4ab537eb9f",
+            "sourceColumn": "id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "company_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c6e831d2-9273-4881-985a-55a1f14c6a36",
+            "sourceColumn": "company_id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8c8e5169-acac-414a-83ae-4446361fcc95",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5d8ec1ae-f4e3-449f-a391-0aaa60fea4dc",
+            "sourceColumn": "month",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c725d82e-3cac-474f-ab65-b8e50f517de1",
+            "sourceColumn": "type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "maturity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "08d38ffc-4753-4b2e-8f2e-89d8faeddfee",
+            "sourceColumn": "maturity",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_40b8cb8a-530d-493a-a06f-61f6118e6650"
+                },
+                "isDefault": true,
+                "relationship": "fc74cb7b-00e7-4513-bb13-5cbddef8d442"
+              }
+            ]
+          },
+          {
+            "name": "rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ddd89564-3ae4-428d-8e1e-2fa101e708f1",
+            "sourceColumn": "rate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "third_party",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "#,0.0",
+            "lineageTag": "410f7f5d-e87d-435e-b3ef-528541836590",
+            "sourceColumn": "third_party",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "#,0.0",
+            "lineageTag": "f40e9a31-da3a-407e-b855-0e5b4b41b09d",
+            "sourceColumn": "total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "parent_company_amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ef010b45-3f2e-406a-81a7-41b5a1ff6e07",
+            "sourceColumn": "parent_company_amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "created_at",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "5ad0bf1d-0fc0-48a7-a28d-ff35271e0660",
+            "sourceColumn": "created_at",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_bebcb363-35db-402f-9c43-c0fea5b4210b"
+                },
+                "isDefault": true,
+                "relationship": "97d16b07-22c2-48f7-a86d-65c1c11ae366"
+              }
+            ]
+          },
+          {
+            "name": "updated_at",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "20a65144-078b-4cda-ae1b-773a773375ba",
+            "sourceColumn": "updated_at",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_c4d1cc98-23c5-4892-ab43-92e1e435a136"
+                },
+                "isDefault": true,
+                "relationship": "b9180fce-17ff-4dbe-8260-fe7bb053cb06"
+              }
+            ]
+          },
+          {
+            "name": "tranche",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d319a4c1-c4ba-4eec-90b7-18ba72e8bec7",
+            "sourceColumn": "tranche",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "7be9c1c3-bd77-453a-b3f3-534ea2564f91",
+            "sourceColumn": "date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_42e65f9d-5de1-419d-9116-e764297eb28c"
+                },
+                "isDefault": true,
+                "relationship": "3b118fdd-ba29-49ab-b71a-349ad0b6150e"
+              }
+            ]
+          },
+          {
+            "name": "month_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4436ce6b-b2e4-4b00-b7e1-662eaa9796e0",
+            "sortByColumn": "month",
+            "sourceColumn": "month_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "NewDateColumn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('haptiq_cap_structure'[date], \"yyyy/mm\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "883fdf54-18c9-4269-93c8-6fd96122c93f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "a3f34a2e-e285-4475-bd42-a128f741caa6",
+        "measures": [
+          {
+            "name": "Fdate",
+            "expression": [
+              "\"Latest Date :\"& \" \"& FORMAT(  CALCULATE( MAX(haptiq_cap_structure[date]), ALL(haptiq_cap_structure)),",
+              "\"mm/dd/yyyy\")"
+            ],
+            "lineageTag": "8dda9c3d-0f54-493d-a393-e579bf87e54b"
+          },
+          {
+            "name": "Year Filter",
+            "expression": [
+              "",
+              "IF(",
+              "    SELECTEDVALUE('haptiq_cap_structure'[year]) = CALCULATE(MAX('haptiq_cap_structure'[year]),ALL(haptiq_cap_structure)),",
+              "    1,",
+              "    0",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "e4f3d37b-0c5b-4e5c-9687-73d3d31e81c8"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "haptiq_cap_structure",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Odbc.DataSource(\"dsn=JIST2\", [HierarchicalNavigation=true]),",
+                "    #\"jist-pipeline_Database\" = Source{[Name=\"jist-pipeline\",Kind=\"Database\"]}[Data],",
+                "    haptiq_Schema = #\"jist-pipeline_Database\"{[Name=\"haptiq\",Kind=\"Schema\"]}[Data],",
+                "    cap_structure_Table = haptiq_Schema{[Name=\"cap_structure\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(cap_structure_Table,{{\"id\", Int64.Type}, {\"company_id\", Int64.Type}, {\"year\", Int64.Type}, {\"month\", Int64.Type}, {\"type\", type text}, {\"maturity\", type date}, {\"rate\", type text}, {\"third_party\", type text}, {\"total\", type text}, {\"parent_company_amount\", type text}, {\"created_at\", type date}, {\"updated_at\", type datetime}, {\"tranche\", type text}, {\"date\", type date}, {\"month_name\", type text}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",null,\"0\",Replacer.ReplaceValue,{\"rate\", \"third_party\", \"total\", \"parent_company_amount\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"NaN\",\"0\",Replacer.ReplaceText,{\"rate\", \"third_party\", \"total\", \"parent_company_amount\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Replaced Value1\",{{\"third_party\", type number}, {\"total\", type number}}),",
+                "    #\"Calculated End of Month\" = Table.TransformColumns(#\"Changed Type1\",{{\"date\", Date.EndOfMonth, type date}})",
+                "in",
+                "    #\"Calculated End of Month\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_40b8cb8a-530d-493a-a06f-61f6118e6650",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "92d4691e-c75e-4298-9981-f124d410994f",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "1659df3b-3819-428d-b32a-1845bf2a30c1",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "038c15ba-e8a4-4fad-94ce-f9980633f1e1",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "3e831a72-9ea6-4285-b4fb-89af35e543f2",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "78b8c6cb-d1bd-42c7-be9c-7f03ac150967",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "c05fc565-5a7b-4d0c-bdfd-7d5d86aaeeea",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "cd609404-f429-400f-8c09-f23ed2290b1c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "8464ffd1-165b-40fb-9bf7-7b2f09f5f643",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "1b9639d6-0003-4c87-9e26-3428c616a690",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "a3e6a19a-f0f7-4bd0-8927-dc775787d30e",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "dda292e3-714d-492e-9df6-db7c9ef9a1e8",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "12f0efc9-70d7-4ebe-9fd7-e36ad00e8a91"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "596e55d1-c922-4a59-ae8a-a9334e62990b",
+        "partitions": [
+          {
+            "name": "LocalDateTable_40b8cb8a-530d-493a-a06f-61f6118e6650",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('haptiq_cap_structure'[maturity])), 1, 1), Date(Year(MAX('haptiq_cap_structure'[maturity])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_bebcb363-35db-402f-9c43-c0fea5b4210b",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "0960fff6-04d4-4976-91e8-42f7e73c01d9",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "63a2aa7b-bea4-4b48-b508-12cb0382dbfa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "9ccaf0da-910f-4d29-9a89-5e7a0f2a85c7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "7c225963-328d-4db8-9443-060de8de6d7c",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "6a8a065f-0bf0-4e8c-8a0c-0d71bc06450d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "a4546bd0-7da2-4c53-a25a-7c17de652e25",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "b0583775-4290-4504-a2d2-e79c2a79f2c3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "c17e131d-f018-4a68-b5f3-4be7fe9406ef",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "3b21df9b-75db-41ae-9e46-44ab9f902862",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "e9125e0a-381f-4f3d-b3c8-c40ece9415b5",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "fffe4fb4-d5e3-4225-acef-2269912c85bd",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e1ee15ec-396e-4035-8035-9b4a60bf9a12"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "07ceba63-d345-494f-8790-d8b60cd97fd1",
+        "partitions": [
+          {
+            "name": "LocalDateTable_bebcb363-35db-402f-9c43-c0fea5b4210b",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('haptiq_cap_structure'[created_at])), 1, 1), Date(Year(MAX('haptiq_cap_structure'[created_at])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_c4d1cc98-23c5-4892-ab43-92e1e435a136",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "7dabf1df-6d97-4792-b82c-2eefccbc3939",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "fd760e0c-13bd-4637-8f83-52a91137467e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "9e8cf621-4ad6-4a53-b04a-d1e29c556ba7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "15540391-6639-47fe-b8d1-45ba94efab50",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "1bb7691f-36e5-4d87-a49e-4c16aa264cee",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "d3c7a750-31fa-454b-a708-1b01e8f70711",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "d13c5ee0-54a6-4942-ab8d-09330df1aa74",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "48803e9c-fa28-4fa6-863e-cfef301e5631",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "b5aafc07-0980-4651-a20c-5ee0102cf62a",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "97746c5a-0de6-4c6d-bd97-2ec8c725343e",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "15a45b91-3dac-458d-a498-8b7065e365b6",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e9a9cb6e-72c0-4668-a44d-a8ab46cd8cef"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "f4dcd91e-d4a7-43fa-a9b5-8773068bc0df",
+        "partitions": [
+          {
+            "name": "LocalDateTable_c4d1cc98-23c5-4892-ab43-92e1e435a136",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('haptiq_cap_structure'[updated_at])), 1, 1), Date(Year(MAX('haptiq_cap_structure'[updated_at])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_42e65f9d-5de1-419d-9116-e764297eb28c",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "7906c51a-fd14-4f3b-981c-8867dc0521cc",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "5dd22831-adb5-45a0-bb36-67124f57eab4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "5e7a2242-7a8d-4291-9fb0-e0ad1bd2b565",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "060739dc-cf5e-4ca8-8414-67d59425aff5",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "ccbcdc87-b5ae-441a-9180-7b6196356743",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "450d4af4-3ee4-4f01-ac80-9333c679bc04",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "6551d98e-441a-4d31-8661-1149625ab1f6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "53dfadbd-46ea-4fb2-9c14-2d8364d5dfdf",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "923ceb29-14fa-4bd3-96af-afb7d0f7a04a",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "40e36767-bf52-4add-971d-838b1721ee85",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "82d8aabe-f0eb-419f-9a7b-f6ffcab4c7b8",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "e1e81369-68e7-447a-af32-ec5b553a55e3"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "27fdbda3-dbc1-4de7-bd63-be2c0c98cc4a",
+        "partitions": [
+          {
+            "name": "LocalDateTable_42e65f9d-5de1-419d-9116-e764297eb28c",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('haptiq_cap_structure'[date])), 1, 1), Date(Year(MAX('haptiq_cap_structure'[date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
