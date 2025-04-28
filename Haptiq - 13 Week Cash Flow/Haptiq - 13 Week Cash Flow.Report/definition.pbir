@@ -3,6 +3,7 @@
   "datasetReference": {
     "byPath": {
       "path": "../Haptiq - 13 Week Cash Flow.SemanticModel"
-    }
+    },
+    "byConnection": null
   }
 }
