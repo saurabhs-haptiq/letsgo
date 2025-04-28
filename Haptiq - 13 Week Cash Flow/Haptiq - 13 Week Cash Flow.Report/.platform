@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Haptiq - 13 Week Cash Flow"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "da97e2cd-d21e-435f-b77c-afb1363269c1"
+  }
+}

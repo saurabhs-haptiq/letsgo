@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Haptiq - 13 Week Cash Flow.SemanticModel"
+    }
+  }
+}
