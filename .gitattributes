@@ -1,1 +1,2 @@
 lfs/*.txt filter=lfs diff=lfs merge=lfs -text
+ff/Unifi[[:space:]]Model.pbix filter=lfs diff=lfs merge=lfs -text
